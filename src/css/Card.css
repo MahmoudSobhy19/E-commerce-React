@@ -1,0 +1,26 @@
+.card {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card img {
+  height: 150px;
+  max-width: 100%;
+}
+
+.card p {
+  font-size: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  height: 50px;
+}
+
+.card a:hover {
+  color: rgb(61, 61, 61);
+}

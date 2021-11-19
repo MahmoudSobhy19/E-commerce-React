@@ -1,0 +1,154 @@
+body {
+  background-color: #eaeded;
+}
+
+.continer {
+  display: flex;
+}
+
+.cart {
+  width: 70%;
+  background-color: #fff;
+  margin-top: 15px !important;
+  margin: auto;
+  padding: 25px;
+  list-style: none;
+}
+
+.title {
+  text-align: left;
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.item {
+  max-height: 200px;
+  display: flex;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.item h5 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.item img {
+  max-width: 28%;
+  margin-right: 40px;
+}
+
+.item h3 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.item .status {
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.item .inStock {
+  color: green;
+}
+
+.item .leftStock {
+  color: orange;
+}
+
+.item .outStock {
+  color: red;
+}
+
+.btns {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns button {
+  border-radius: 10px;
+  border: 1px solid rgb(182, 182, 182);
+  padding: 0px 15px;
+  color: red;
+  background-color: rgb(252, 216, 216);
+}
+
+.qty {
+  display: flex;
+  background-color: #c6fac6;
+  width: 100px;
+  border-radius: 10px;
+  padding: 5px 5px 5px 9px;
+  border: 1px solid rgb(182, 182, 182);
+}
+
+.qty p {
+  margin-top: -3px;
+}
+
+.qty select {
+  border-width: 0px;
+  background-color: #c6fac6;
+}
+
+.cart-action {
+  background-color: #faecbe;
+  padding: 20px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cart-action > h3 {
+  margin-left: 5%;
+  font-weight: 500;
+}
+
+.cart-action b {
+  margin-left: 4px;
+}
+
+.cart-action .buy {
+  color: #000;
+  width: 250px;
+  margin-left: 15%;
+  margin-top: -2px;
+}
+
+@media (max-width: 768px) {
+  .cart {
+    margin: auto;
+    margin-top: 15px !important;
+    width: 90%;
+  }
+
+  .item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100%;
+    border-radius: 15px;
+  }
+
+  .item img {
+    max-width: 50%;
+    margin-right: 0px;
+  }
+
+  .item h2 {
+    text-align: center;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+}

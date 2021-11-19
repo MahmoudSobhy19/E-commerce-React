@@ -1,0 +1,87 @@
+.form {
+  background-color: #f1f1f1;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.384);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.p {
+  margin-top: 15px;
+}
+
+.container form div {
+  margin-bottom: 10px;
+}
+
+span {
+  color: red;
+}
+
+input {
+  width: 100%;
+  margin: 5px 0 10px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #c7c0c0;
+}
+
+.signup {
+  background-color: #dfdddd;
+  border: 1px solid #9c9c9c;
+}
+
+.sign-btn {
+  width: 100%;
+  margin: 5px 0 10px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #c7c0c0;
+}
+
+.signup a {
+  text-decoration: none;
+  color: rgb(68, 108, 218);
+}
+
+.signup:hover {
+  background-color: #eeeded;
+}
+
+.signup:focus {
+  outline-color: #eeeded;
+}
+
+.sign-in-link {
+  display: flex;
+  margin-top: 15px;
+}
+
+.sign-in-link a {
+  text-decoration: none;
+  color: rgb(93, 82, 250);
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+  .form {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 90%;
+    box-shadow: none;
+  }
+}
